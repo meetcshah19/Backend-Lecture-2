@@ -1,0 +1,4 @@
+create databse Demo;
+create table user (email varchar(255) PRIMARY KEY,name varchar(255));
+insert into user (email,name) values ("meetcshah19@gmail.com","meet");
+select name from user where email="meetcshah19@gmail.com";
