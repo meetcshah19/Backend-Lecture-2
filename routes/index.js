@@ -40,7 +40,6 @@ router.get("/select", function (req, res, next) {
 });
 
 router.post("/", function (req, res, next) {
-  console.log(req.body);
   connection.query(
     'insert into user (email,name) values ("' +
       req.body.email +
